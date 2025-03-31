@@ -1,0 +1,106 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #1a472a;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #f8b400;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f8b400;
+}
+
+#team {
+    background-color: #f8b400;
+    color: black;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.member {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.member h3 {
+    color: #003366;
+    margin: 10px 0;
+}
+
+.member p {
+    color: black;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #003366;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    border-top: 5px solid #f8b400;
+}
+
+.icon {
+    width: 1.5%;
+    height: 1.5%;
+}
+
+.img {
+    width: 20%;
+    height: 20%;
+}
+
+.tweet-container {
+    width: 100%;
+    max-width: 600px; /* 最大幅を設定 */
+    text-align: center; /* 埋め込みを中央に */
+}
+
+.detail {
+    text-align: left;
+}
+
+.schedule {
+    width: 70%;
+    height: 70%;
+}
